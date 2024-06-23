@@ -9,7 +9,7 @@ function Terms({ handleTermsSubmit, handleOutsideClick }) {
                 <>
                     <h3>Introduction</h3>
                     <p>
-                        Welcome to Plantzzz Web App, an interactive learning tool designed to enhance your knowledge of plants. 
+                        Welcome to Plantzzz Web App, an interactive Quiz tool designed to test your knowledge of plants. 
                         This application provides an engaging experience where you can practice and test your understanding of 
                         various plant topics using multiple-choice questions and user-friendly navigation.
                     </p>
@@ -17,13 +17,13 @@ function Terms({ handleTermsSubmit, handleOutsideClick }) {
                     <h4>Features</h4>
                     <ol>
                         <li>
-                            <strong>User Authentication:</strong> Start quizzes by entering your name.
+                            <strong>Login:</strong> Start quizzes by entering your name.
                         </li>
                         <li>
-                            <strong>Multi-User System:</strong> Add multiple users to track individual progress separately.
+                            <strong>Multi-Users System:</strong> Can add multiple users to track individual progress separately.
                         </li>
                         <li>
-                            <strong>Topic Selection:</strong> Choose from different plant topics to begin your quiz.
+                            <strong>Topic Selection:</strong> Choose from different plant learning topics to begin your quiz, practice quiz is also available.
                         </li>
                         <li>
                             <strong>Quiz Interface:</strong> Navigate through questions with next buttons.
@@ -39,32 +39,10 @@ function Terms({ handleTermsSubmit, handleOutsideClick }) {
                             <strong>Quiz Completion:</strong> View results after completing the quiz.
                         </li>
                         <li>
-                            <strong>Retake Quiz:</strong> Repeat quizzes to improve your knowledge.
-                        </li>
-                    </ol>
-
-                    <h4>Usage</h4>
-                    <ol>
-                        <li>
-                            <strong>User Authentication:</strong> Enter your name to start quizzes.
+                            <strong>Retake Quiz:</strong> Please repeat quizzes to improve your knowledge if you fail to pass.
                         </li>
                         <li>
-                            <strong>Topic Selection:</strong> Choose a plant topic to begin the quiz.
-                        </li>
-                        <li>
-                            <strong>Quiz Interface:</strong> Navigate using next and previous buttons.
-                        </li>
-                        <li>
-                            <strong>Answer Selection:</strong> Choose the correct answer for each question.
-                        </li>
-                        <li>
-                            <strong>Timer:</strong> Monitor remaining time during quizzes.
-                        </li>
-                        <li>
-                            <strong>Quiz Completion:</strong> View results and correct answers.
-                        </li>
-                        <li>
-                            <strong>Retake Quiz:</strong> Access quizzes again from the topic selection page.
+                            <strong>Quiz Tracking:</strong> Please finish quizzes and follow Timer rules otherwise system will let us know :P.
                         </li>
                     </ol>
 
