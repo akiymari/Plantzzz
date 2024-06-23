@@ -1431,3 +1431,14 @@ footer span a:hover {
         display: none;
     }
 }
+
+.practice-label {
+    display: inline-block;
+    background-color: #ffeb3b;
+    color: #000;
+    padding: 2px 8px;
+    margin-left: 10px;
+    font-size: 12px;
+    border-radius: 4px;
+    font-weight: bold;
+}

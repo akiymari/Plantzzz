@@ -1,4 +1,3 @@
-/* eslint-disable react-hooks/rules-of-hooks */
 /*
     path/root/src/components/Topic.jsx
     Imports:
@@ -12,7 +11,6 @@ import { useAppFunctions } from '../AppFunctions'
 
 // Topic function
 function Topic({ topics, onTopicClick, resultData }) {
-
     const { userName } = useAppFunctions()
 
     return (
@@ -45,6 +43,7 @@ function Topic({ topics, onTopicClick, resultData }) {
                     >
                         <h3>{topic.heading}</h3>
                         <p>{topic.description}</p>
+                        {topic.heading === 'Practice Quiz' && <span className="practice-label">Practice</span>}
                         {quizResults.map((result, index) => (
                             <div key={index} id="tag-container">
                                 <a onClick={() => onTopicClick(topic.heading)}>Re-take</a>
