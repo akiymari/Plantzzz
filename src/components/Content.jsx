@@ -22,7 +22,6 @@ function Content({
     handleOutsideClick,
     children 
 }) {
-    // Function to go to my portfolio
     return (
         <>
             {
@@ -56,9 +55,7 @@ function Content({
             </main>
             <footer>
                 <p>&copy; {new Date().getFullYear()}, Plantzzz Quiz</p>
-                {/* <span>Made with ❤️ by 
-                    <a target="_blank" rel="noopener noreferrer" onClick={gotoMyPortfolio}> Aitisam Yaseen</a>
-                </span> */}
+                {}
             </footer>
         </>
     )

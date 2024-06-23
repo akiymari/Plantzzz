@@ -29,10 +29,6 @@ function Login({
         setUser(name);
     }
 
-    // const gotoMyPortfolio = () => {
-    //     window.open("https://github.com/MaitisamY/", "_blank");
-    // }
-
     return (
         <>
             <div id="login">
@@ -106,9 +102,7 @@ function Login({
             </div>
             <div id="login-footer">
                 <p>© {new Date().getFullYear()}, Plantzzz Web App.</p>
-                {/* <span>Made with ❤️ by 
-                    <a target="_blank" rel="noopener noreferrer" onClick={gotoMyPortfolio}> Aitisam Yaseen</a>
-                </span> */}
+                {}
             </div>
         </>
     )

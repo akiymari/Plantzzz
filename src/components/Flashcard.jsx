@@ -48,7 +48,7 @@ function Flashcard({ flashcards, timer, handleResultData }) {
     setCount((prevCount) => prevCount + 1);
   };
 
-  // Handle previous button
+  // Handle previous button, cant get it fully implemented 
   const handlePrevious = () => {
     setCurrentIndex((prevIndex) => prevIndex - 1);
     setCount((prevCount) => prevCount - 1);

@@ -51,7 +51,7 @@ function Topic({ topics, onTopicClick, resultData }) {
                             </div>
                         ))}
 
-                        {/* Render tooltip only if active and tooltip is visible */}
+                        {}
                         {
                             activeClass && isTooltipVisible && (
                                 <div className="tooltip">

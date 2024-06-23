@@ -26,10 +26,10 @@ function Terms({ handleTermsSubmit, handleOutsideClick }) {
                             <strong>Topic Selection:</strong> Choose from different plant topics to begin your quiz.
                         </li>
                         <li>
-                            <strong>Quiz Interface:</strong> Navigate through questions with next and previous buttons.
+                            <strong>Quiz Interface:</strong> Navigate through questions with next buttons.
                         </li>
                         <li>
-                            <strong>Answer Selection:</strong> Select correct answers from multiple-choice options.
+                            <strong>Answer Selection:</strong> Select correct answer (Only one) from multiple-choice options.
                         </li>
                         <li>
                             <strong>Timer:</strong> Each quiz has a 10-minute timer. Only correct answers among attempted questions 
