@@ -7,9 +7,9 @@ function Info({ handleInfoClick, handleOutsideClick }) {
                 <a onClick={handleInfoClick}>X</a>
                 <h1>Info</h1>
                 <ol>
-                    <li>Learn about 50 different plants, each with 4 unique questions.</li>
+                    <li>Learn about 50 different plants from 4 learning topics, each with 4 unique questions.</li>
                     <li>You'll have a quiz of totaling 100 questions.</li>
-                    <li>Practice quizzes will randomly select 25 plants from the set.</li>
+                    <li>Practice quizzes will randomly select questions from any of the learning topics.</li>
                     <li>Each question is worth 1 point.</li>
                     <li>A scoreboard will show at end to track your progress.</li>
                     <li>Each quiz lasts for 10 minutes.</li>
