@@ -48,7 +48,7 @@ function Login({
                             name="name" 
                             value={user} 
                             onChange={handleUsenameChange}
-                            placeholder="E.g. John Doe"
+                            placeholder="E.g. Marie Akiyama"
                         />
                         {userNameError && <span id="name-error">{userNameError}</span>}
                         <button 
